@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/all.min.css" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Weather</title>
+  </head>
+  <body>
+    <nav class="navbar bg-body-tertiary bg-custom py-4 position-static">
+      <div class="container py-4 ps-5">
+        <a class="navbar-brand d-flex" href="#">
+          <img
+            src="photos/logo@2x.png"
+            alt="Logo"
+            width="64"
+            height="38"
+            class="d-inline-block align-text-top"
+          />
+          <div class="d-block ms-2 p-0">
+            <p class="mb-0 custom-logo-size-p1">Weather</p>
+            <p class="m-0 custom-logo-size-p2">tagline goes here</p>
+          </div>
+        </a>
+        <div class="d-flex px-lg-5 px-0 pt-4 pt-lg-0">
+          <a href="index.html">
+            <button
+              type="button"
+              class="btn btn-outline-primary me-4 btn-outline-primary-first-btn px-0 py-0 px-lg-4 py-lg-1"
+            >
+              Home
+            </button>
+          </a>
+          <a href="page not found.html">
+            <button
+              type="button"
+              class="btn btn-outline-primary me-4 px-0 py-0 px-lg-4 py-lg-1"
+            >
+              News
+            </button>
+          </a>
+          <a href="page not found.html">
+            <button
+              type="button"
+              class="btn btn-outline-primary me-4 px-0 py-0 px-lg-4 py-lg-1"
+            >
+              Live cameras
+            </button>
+          </a>
+          <a href="page not found.html">
+            <button
+              type="button"
+              class="btn btn-outline-primary me-4 px-0 py-0 px-lg-4 py-lg-1"
+            >
+              Photos
+            </button>
+          </a>
+          <a href="contact.html">
+            <button
+              type="button"
+              class="btn btn-outline-primary px-0 py-0 px-lg-4 py-lg-1"
+            >
+              Contact
+            </button>
+          </a>
+        </div>
+      </div>
+    </nav>
+    <div class="container-fluid bg-img mt-auto">
+      <br />
+      <div class="col-12 py-5 d-flex justify-content-center">
+        <div class="input-group mb-3 w-75 d-flex justify-content-center">
+          <input
+            id="locationInput"
+            type="text"
+            class="form-control in-bord in-bord-tow me-0 position-relative custom-input z-1 py-3"
+            placeholder="Find your location..."
+            aria-label="Recipient's username"
+            aria-describedby="button-addon2"
+          />
+
+          <button
+            id="searchButton"
+            class="btn btn-primary end-0 position-absolute btn-custom-cont btn-size px-4 mt-0 z-2"
+            type="button"
+          >
+            Find
+          </button>
+
+          >
+        </div>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-4 bg-col1 position-relative">
+            <div
+              class="bg-tow-span start-0 end-0 position-absolute overflow-auto d-flex justify-content-between"
+            >
+              <span
+                id="fdayO"
+                class="d-inline-block ms-1 py-1 custom-span"
+              ></span>
+              <span
+                id="currentDate"
+                class="d-inline-block me-1 py-1 custom-span"
+                >5 December</span
+              >
+            </div>
+            <div class="mb-4"></div>
+            <p id="locationC" class="w-100 pt-3 custom-p"></p>
+            <h1 id="temp" class="custom-font-h1">
+              <span class="custom-m d-inline-block">o</span>C
+            </h1>
+            <i id="sunIcon" class="fa-solid fa-sun custom-ic-one"></i>
+            <i id="cloudIcon" class="fa-solid fa-cloud custom-ic-tow mb-2"></i>
+            <h5 class="mt-5 custom-h6">Partly cloudy</h5>
+            <i class="fa-solid fa-umbrella clr-icons"></i>
+            <span class="clr-icons spans">20%</span> &nbsp;&nbsp;&nbsp;&nbsp;
+            <i class="fa-solid fa-wind clr-icons"></i>
+            <span class="clr-icons spans">18km/h </span>
+            &nbsp;&nbsp;&nbsp;&nbsp;
+            <i class="fa-solid fa-diamond-turn-right clr-icons"></i>
+            <span class="clr-icons spans">East </span>
+            <br /><br />
+          </div>
+          <div class="col-lg-4 bg-col2 position-relative px-2">
+            <div
+              class="bg-tow-span-tow start-0 end-0 position-absolute overflow-auto d-flex justify-content-center"
+            >
+              <span
+                id="fdayT"
+                class="d-inline-block ms-1 py-1 custom-span"
+              ></span>
+            </div>
+            <div class="mb-5"></div>
+            <br />
+            <div
+              class="d-flex justify-content-center align-items-center flex-column"
+            >
+              <div>
+                <i
+                  id="sunIcon"
+                  class="fa-solid fa-sun custom-ic-one-col2 custom-ic-one text-center"
+                ></i>
+              </div>
+              <i
+                id="cloudIcon"
+                class="fa-solid fa-cloud custom-ic-tow mb-2 text-center"
+              ></i
+              ><br />
+              <h1 id="tempFt" class="custom-font-h1-col2 mt-4">
+                <span class="custom-m-col2 d-inline-block">o</span>C
+              </h1>
+
+              <h5 id="conditionText" class="mt-3 custom-h6">Partly cloudy</h5>
+              <br /><br />
+            </div>
+          </div>
+          <div class="col-lg-4 bg-col3 position-relative px-2">
+            <div
+              class="bg-tow-span-three start-0 end-0 position-absolute overflow-auto d-flex justify-content-center"
+            >
+              <span
+                id="tDay"
+                class="d-inline-block ms-1 py-1 custom-span"
+              ></span>
+            </div>
+            <div class="mb-5"></div>
+            <br />
+            <div
+              class="d-flex justify-content-center align-items-center flex-column"
+            >
+              <i
+                id="sunIcon"
+                class="fa-solid fa-sun custom-ic-one-col2 custom-ic-one text-center final-ic"
+              ></i>
+              <i class="fa-solid fa-cloud custom-ic-tow mb-2 text-center"></i
+              ><br />
+              <h1 id="tempC" class="custom-font-h1-col2">
+                <span class="custom-m-col2 d-inline-block">o</span>C
+              </h1>
+
+              <h5 class="mt-3 custom-h6">Cloudy</h5>
+              <br /><br />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <br /><br /><br /><br />
+    <div class="container-fluid bg-tow">
+      <div class="container">
+        <div class="row">
+          <div class="col-6 py-5">
+            <div class="input-group mb-3 w-100 d-flex justify-content-center">
+              <input
+                type="text"
+                class="form-control in-bord in-bord-tow me-0 position-relative custom-input z-1 py-3"
+                placeholder="Enter your email to subscribe..."
+                aria-label="Recipient's username"
+                aria-describedby="button-addon2"
+              />
+              <a href="index.html" class="text-decoration-none">
+                <button
+                  class="btn btn-primary end-0 position-absolute btn-custom-cont btn-size px-4 mt-0 z-2"
+                  type="submit"
+                >
+                  Subscribe
+                </button></a
+              >
+            </div>
+          </div>
+          <div class="col-6 py-5 ms-auto d-flex justify-content-center">
+            <a
+              href="index.html"
+              class="rounded-circle in-bord-tow text-decoration-none circle d-flex justify-content-center align-items-center"
+              ><i
+                class="fa-brands fa-facebook-f clr-i fs-5 text-center icons"
+              ></i
+            ></a>
+            <a
+              href="index.html"
+              class="rounded-circle ms-3 me-3 text-decoration-none in-bord-tow circle d-flex justify-content-center align-items-center"
+            >
+              <i class="fa-brands fa-twitter clr-i fs-5 text-center icons"></i
+            ></a>
+            <a
+              href="index.html"
+              class="rounded-circle me-3 text-decoration-none in-bord-tow circle d-flex justify-content-center align-items-center"
+            >
+              <i
+                class="fa-brands fa-google-plus-g clr-i fs-5 text-center icons"
+              ></i
+            ></a>
+            <a
+              href="index.html"
+              class="rounded-circle in-bord-tow text-decoration-none circle d-flex justify-content-center align-items-center"
+            >
+              <i class="fa-brands fa-pinterest clr-i fs-5 text-center icons"></i
+            ></a>
+          </div>
+          <div class="col-6">
+            <p class="last">
+              Copyright 2014 Company name. Designed by Themezy. All rights
+              reserved
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="./js/bootstrap.bundle.min.js"></script>
+    <script src="./js/main.js"></script>
+  </body>
+</html>

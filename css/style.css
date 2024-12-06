@@ -1,0 +1,300 @@
+body {
+  background-color: #1e202b;
+}
+.custom-logo-size-p2 {
+  font-family: Roboto, "Open Sans", sans-serif;
+  font-size: 0.625rem;
+  font-weight: 300;
+  color: rgb(191, 193, 200);
+}
+.custom-logo-size-p1 {
+  font-family: Roboto, "Open Sans", sans-serif;
+  font-size: 1rem;
+  font-weight: 700;
+  color: rgb(255, 255, 255);
+}
+.bg-custom {
+  background-color: #1e202b !important;
+}
+.btn-outline-primary {
+  --bs-btn-color: #fff;
+  --bs-btn-border-color: #0d6dfd00;
+  --bs-btn-hover-color: #08a7db;
+  --bs-btn-hover-bg: #0d6dfd00;
+  --bs-btn-hover-border-color: #08a7db;
+  --bs-btn-focus-shadow-rgb: 13, 110, 253;
+  --bs-btn-active-color: #08a7db;
+  --bs-btn-active-bg: #0d6dfd00;
+  --bs-btn-active-border-color: #08a7db;
+  --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+  --bs-btn-disabled-color: #08a7db;
+  --bs-btn-disabled-border-color: #08a7db;
+  --bs-gradient: none;
+  font-family: Roboto, "Open Sans", sans-serif;
+  font-size: 0.875rem;
+  font-weight: 400;
+  border-radius: 25px;
+}
+.btn-outline-primary-first-btn {
+  --bs-btn-color: #08a7db;
+  --bs-btn-border-color: #08a7db;
+  --bs-btn-hover-color: #08a7db;
+  --bs-btn-hover-bg: #0d6dfd00;
+  --bs-btn-hover-border-color: #08a7db;
+  --bs-btn-focus-shadow-rgb: 13, 110, 253;
+  --bs-btn-active-color: #08a7db;
+  --bs-btn-active-bg: #0d6dfd00;
+  --bs-btn-active-border-color: #08a7db;
+  --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+  --bs-btn-disabled-color: #08a7db;
+  --bs-btn-disabled-border-color: #08a7db;
+  --bs-gradient: none;
+}
+.bg-custom-contact-page {
+  background-color: #262936;
+  border-radius: 25px;
+  height: 50px;
+}
+.custom-hover-contact:hover {
+  border-bottom: 1px solid;
+}
+.sizing-contact-page {
+  font-family: Roboto, "Open Sans", sans-serif;
+  font-size: 0.8125rem;
+  font-weight: 300;
+}
+.bg-custom-contact-page-col-one {
+  background-color: #262936;
+  border-radius: 10px;
+}
+.custom-p-contact-page {
+  font-family: Roboto, "Open Sans", sans-serif;
+  font-size: 0.875rem;
+  font-weight: 300;
+  color: rgb(191, 193, 200);
+}
+.custom-p2-contact-page {
+  font-family: Roboto, "Open Sans", sans-serif;
+  font-size: 0.875rem;
+  font-weight: 300;
+  color: rgb(191, 193, 200);
+  max-width: 550px;
+}
+.custom-h1-contact-page {
+  font-family: Roboto, "Open Sans", sans-serif;
+  font-size: 2.25rem;
+  font-weight: 300;
+  color: rgb(255, 255, 255);
+}
+.clr-i {
+  color: #08a7db;
+}
+.in-bord {
+  border-radius: 25px !important;
+  background-color: #ffffff00 !important;
+  caret-color: white;
+}
+.in-bord:hover {
+  border-color: #08a7db;
+}
+.in-bord:focus {
+  border-color: #08a7db;
+}
+.in-bord::placeholder {
+  color: white;
+  opacity: 0.5;
+  font-size: 0.8125rem;
+  font-family: Roboto, "Open Sans", sans-serif;
+  transform: translateY(-20%);
+}
+.btn-custom-cont {
+  background-color: #08a7db;
+  border-radius: 25px;
+}
+.btn-custom-cont:hover {
+  background-color: #08a7db;
+}
+.btn-custom-cont:active {
+  background-color: #08a7db !important;
+}
+.bg-tow {
+  background-color: #262936;
+}
+.in-bord-tow {
+  background-color: #1e202b !important;
+}
+.circle {
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  transition: all 0.3s;
+}
+.circle:hover {
+  background-color: #08a7db !important;
+}
+.icons {
+  transition: all 0.3s;
+}
+.circle:hover .icons {
+  color: white !important;
+}
+.last {
+  font-family: Roboto, "Open Sans", sans-serif;
+  font-size: 0.875rem;
+  color: rgb(191, 193, 200);
+  margin-top: -40px;
+}
+.bg-img {
+  background-image: url(../photos/banner.png);
+
+  background-repeat: no-repeat;
+}
+.btn-size {
+  top: 5px;
+  bottom: 5px;
+}
+.custom-input {
+  border: 0px;
+}
+.custom-input:active {
+  border-color: inherit !important;
+  box-shadow: none !important;
+}
+.custom-input:focus {
+  border-color: #08a6db00;
+  box-shadow: none !important;
+}
+.custom-input:hover {
+  border-color: inherit !important;
+  box-shadow: none !important;
+}
+.bg-col1 {
+  background-color: #323544;
+  z-index: 400;
+  margin-bottom: -50px;
+  border-top-left-radius: 7px;
+  border-bottom-left-radius: 7px;
+}
+.bg-col3 {
+  background-color: #323544;
+  z-index: 400;
+  margin-bottom: -50px;
+  border-top-right-radius: 7px;
+  border-bottom-right-radius: 7px;
+}
+.bg-col2 {
+  background-color: #262936;
+  z-index: 400;
+  margin-bottom: -50px;
+}
+.bg-tow-span {
+  background-color: #2d303d;
+  z-index: 500;
+  border-top-left-radius: 7px;
+}
+.bg-tow-span-three {
+  background-color: #2d303d;
+  z-index: 500;
+  border-top-right-radius: 7px;
+}
+.bg-tow-span-tow {
+  background-color: #222531;
+  z-index: 500;
+  border-top-left-radius: 7px;
+}
+.z-in {
+  z-index: 350;
+}
+.custom-span {
+  color: rgb(191, 193, 200);
+  font-family: Roboto, "Open Sans", sans-serif;
+  font-weight: 400;
+  font-size: 0.875rem;
+}
+.custom-p {
+  color: rgb(191, 193, 200);
+  font-family: Roboto, "Open Sans", sans-serif;
+  font-weight: 400;
+  font-size: 1.125rem;
+}
+.custom-m {
+  transform: translateY(-50%);
+  font-size: 4rem;
+}
+.custom-m-col2 {
+  transform: translateY(-50%);
+  font-size: 1.125rem;
+}
+.custom-font-h1 {
+  font-family: Roboto, "Open Sans", sans-serif;
+  font-size: 5.625rem;
+  color: rgb(255, 255, 255);
+  font-weight: 700;
+}
+.custom-font-h1-col2 {
+  font-family: Roboto, "Open Sans", sans-serif;
+  font-size: 1.5rem;
+  color: rgb(255, 255, 255);
+  font-weight: 700;
+}
+.custom-ic-one {
+  color: #fff202;
+  font-size: 2.1875rem;
+  transform: translate(-35%, -15%);
+  position: absolute;
+  margin-left: 0.625rem;
+}
+.custom-ic-one-col2 {
+  color: #fff202;
+  font-size: 1.5rem;
+  transform: translateX(-150%);
+
+  position: absolute;
+  margin-left: 0.625rem;
+}
+.custom-ic-tow {
+  font-size: 2rem;
+  color: #ffffff;
+  z-index: 2;
+  position: relative;
+
+  margin-left: 0.625rem;
+}
+.custom-ic-tow-col2 {
+  font-size: 3.5rem;
+  color: #ffffff;
+  z-index: 2;
+  position: relative;
+  transform: translateX(5%);
+  margin-left: 0.625rem;
+}
+.custom-h6 {
+  font-family: Roboto, "Open Sans", sans-serif;
+  color: rgb(0, 154, 216);
+  font-weight: 300;
+  font-size: 0.875rem;
+}
+.clr-icons {
+  color: rgb(191, 193, 200);
+}
+.spans {
+  font-family: Roboto, "Open Sans", sans-serif;
+  font-weight: 300;
+  font-size: 0.875rem;
+}
+.custom-p {
+  font-family: Roboto, "Open Sans", sans-serif;
+  font-weight: 300;
+  color: rgb(191, 193, 200);
+  font-size: 1rem;
+}
+.custom-deg {
+  transform: translateY(-50%);
+  font-size: 0.75rem;
+}
+.final-ic {
+  transform: translate(-80%, -350%);
+}
+#locationInput{
+  color: white;
+}
